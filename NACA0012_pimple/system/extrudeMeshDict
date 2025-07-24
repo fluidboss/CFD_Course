@@ -1,0 +1,31 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      extrudeMeshDict;
+}
+
+
+
+extrudeModel linearNormal;
+
+nLayers 1;
+
+expansionRatio 1.0;
+
+linearNormalCoeffs
+{
+    thickness 1.0;  // extrusion distance (for 2D-like thin mesh)
+}
+
+constructFrom patch;
+sourceCase ".";
+
+sourcePatches ( front );  // patch to extrude
+
+flipNormals false;
+
+exposedPatchName back;
+
+mergeFaces false;
