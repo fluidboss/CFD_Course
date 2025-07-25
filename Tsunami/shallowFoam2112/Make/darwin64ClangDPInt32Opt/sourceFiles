@@ -1,0 +1,4 @@
+SOURCE = \
+shallowFoam.C \
+
+# sources

@@ -1,0 +1,8 @@
+LOCAL_OBJECTS = \
+shallowFoam.o\
+criticalFlowDepthInletFvPatchScalarField.o\
+energyHeadInletFvPatchVectorField.o\
+dischargeFlowDepthOutletFvPatchVectorField.o\
+flowRateInletFvPatchVectorField.o\
+timeVaryingFlowRateInletFvPatchVectorField.o\
+fixedAbsoluteWaterLevelFvPatchScalarField.o
