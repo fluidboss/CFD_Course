@@ -1,8 +1,0 @@
-OBJECTS = \
-$(OBJECTS_DIR)/shallowFoam.o\
-$(OBJECTS_DIR)/criticalFlowDepthInletFvPatchScalarField.o\
-$(OBJECTS_DIR)/energyHeadInletFvPatchVectorField.o\
-$(OBJECTS_DIR)/dischargeFlowDepthOutletFvPatchVectorField.o\
-$(OBJECTS_DIR)/flowRateInletFvPatchVectorField.o\
-$(OBJECTS_DIR)/timeVaryingFlowRateInletFvPatchVectorField.o\
-$(OBJECTS_DIR)/fixedAbsoluteWaterLevelFvPatchScalarField.o

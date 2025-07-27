@@ -1,3 +1,0 @@
-shallowFoam.C
-
-EXE = $(FOAM_USER_APPBIN)/shallowFoam2112
